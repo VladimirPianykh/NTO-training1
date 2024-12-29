@@ -15,7 +15,7 @@ public class LoadFromExcel implements Feature{
 	public static final LoadFromExcel instance=new LoadFromExcel();
 	private LoadFromExcel(){}
 	public void fillTab(JPanel content,JPanel tab,Font font){
-		File f=new File(System.getProperty("user.home")+"Downloads");
+		File f=new File(System.getProperty("user.home")+"/Downloads");
 		HButton c=new HButton(){
 			public void paint(java.awt.Graphics g){
 				g.setColor(Color.BLACK);
@@ -25,7 +25,10 @@ public class LoadFromExcel implements Feature{
 				g.drawString(getText(),(getWidth()-fm.stringWidth(getText()))/2,(getHeight()+fm.getAscent()+fm.getLeading()-fm.getDescent())/2);
 			};
 		};
-		c.setText("Загрузить из ");
+		c.addActionListener(e->{
+			
+		});
+		c.setText("Загрузить из "+f.getAbsolutePath());
 	}
 	public void paint(java.awt.Graphics2D g2,BufferedImage image,int h){
 		

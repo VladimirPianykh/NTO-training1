@@ -1,15 +1,8 @@
 package com.ntoproject.editables;
 
 import com.futurefactory.Data;
-import com.futurefactory.Wrapper;
 import com.futurefactory.editor.EditorEntry;
-import com.futurefactory.editor.EditorEntryBase;
-import com.ntoproject.editables.space.CenterSpace;
 import com.ntoproject.editables.space.Owner;
-
-import javax.swing.*;
-import java.lang.reflect.Field;
-import java.util.function.Supplier;
 
 public class ExhibitionItem extends Data.Editable {
     public ExhibitionItem() {
