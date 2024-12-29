@@ -4,6 +4,8 @@ import java.util.function.Supplier;
 
 import javax.swing.SwingUtilities;
 
+import com.futurefactory.Navigator;
+import com.futurefactory.ProgramStarter;
 import com.futurefactory.Registrator;
 import com.futurefactory.User.Feature;
 import com.futurefactory.User.Permission;
@@ -29,6 +31,10 @@ public class Main{
 		private AppPermission(){Registrator.register(this);}
 	}
 	public static void main(String[]args){
-		System.out.println("Hello world!");
+		Navigator.init();
+		ProgramStarter.welcomeMessage="Добро пожаловать в Культурный центр ЗИЛ. Нажмите alt+H для запуска навигатора.";
+		ProgramStarter.authRequired=true;
+		
+		ProgramStarter.runProgram();
 	}
 }
