@@ -1,6 +1,6 @@
 package com.ntoproject.editables.space;
 
-import com.futurefactory.Data;
+import com.futurefactory.core.Data;
 import com.futurefactory.editor.EditorEntry;
 
 public class CenterSpace extends Data.Editable implements Owner {

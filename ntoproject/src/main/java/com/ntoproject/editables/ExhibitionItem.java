@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 
-import com.futurefactory.Data;
+import com.futurefactory.core.Data;
 import com.futurefactory.Wrapper;
 import com.futurefactory.editor.EditorEntry;
 import com.futurefactory.editor.EditorEntryBase;

@@ -1,5 +1,7 @@
 package com.ntoproject.editables.space;
 
-public interface Owner {
+import java.io.Serializable;
+
+public interface Owner extends Serializable{
     String getName();
 }

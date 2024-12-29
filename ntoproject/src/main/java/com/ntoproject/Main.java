@@ -4,16 +4,16 @@ import java.util.function.Supplier;
 
 import javax.swing.SwingUtilities;
 
-import com.futurefactory.Data.EditableGroup;
-import com.futurefactory.Navigator;
+import com.futurefactory.core.Data.EditableGroup;
+import com.futurefactory.core.Navigator;
 import com.futurefactory.PathIcon;
-import com.futurefactory.ProgramStarter;
-import com.futurefactory.Registrator;
-import com.futurefactory.Root;
-import com.futurefactory.User;
-import com.futurefactory.User.Feature;
-import com.futurefactory.User.Permission;
-import com.futurefactory.User.Role;
+import com.futurefactory.core.ProgramStarter;
+import com.futurefactory.core.Registrator;
+import com.futurefactory.core.Root;
+import com.futurefactory.core.User;
+import com.futurefactory.core.User.Feature;
+import com.futurefactory.core.User.Permission;
+import com.futurefactory.core.User.Role;
 import com.futurefactory.defaults.features.DefaultFeature;
 import com.ntoproject.editables.ExhibitionItem;
 import com.ntoproject.editables.Mentor;

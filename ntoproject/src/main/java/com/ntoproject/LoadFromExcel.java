@@ -7,7 +7,7 @@ import java.awt.Font;
 import java.awt.FontMetrics;
 
 import com.futurefactory.HButton;
-import com.futurefactory.User.Feature;
+import com.futurefactory.core.User.Feature;
 import java.awt.image.BufferedImage;
 import java.io.File;
 

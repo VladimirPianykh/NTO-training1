@@ -1,6 +1,6 @@
 package com.ntoproject.editables.space;
 
-public class Center implements Owner {
+public class Center implements Owner{
     private Center(){}
 
     private final static Center instance = new Center();
