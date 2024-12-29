@@ -17,8 +17,8 @@ import com.futurefactory.User.Role;
 import com.futurefactory.defaults.features.DefaultFeature;
 import com.ntoproject.editables.ExhibitionItem;
 import com.ntoproject.editables.Mentor;
-import com.ntoproject.editables.Studio;
-import com.ntoproject.editables.space.CenterSpace;
+import com.ntoproject.editables.CenterSpace;
+import com.ntoproject.editables.space.Studio;
 
 public class Main{
 	public enum AppRole implements Role{

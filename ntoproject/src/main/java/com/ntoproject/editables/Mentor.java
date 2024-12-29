@@ -7,7 +7,4 @@ public class Mentor extends Data.Editable {
     public Mentor() {
         super("Новый преподаватель");
     }
-
-    @EditorEntry(translation = "Ф.И.О.")
-    public String name;
 }

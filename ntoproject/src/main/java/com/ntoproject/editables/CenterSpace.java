@@ -1,24 +1,17 @@
-package com.ntoproject.editables.space;
+package com.ntoproject.editables;
 
 import com.futurefactory.Data;
 import com.futurefactory.editor.EditorEntry;
 
-public class CenterSpace extends Data.Editable implements Owner {
+public class CenterSpace extends Data.Editable {
+
     public CenterSpace() {
         super("Новое пространство");
     }
-
-    @EditorEntry(translation = "Название пространства")
-    public String spaceName;
 
     @EditorEntry(translation = "Вместимость")
     public int capacity;
 
     @EditorEntry(translation = "Описание")
     public String description;
-
-    @Override
-    public String getName() {
-        return spaceName;
-    }
 }

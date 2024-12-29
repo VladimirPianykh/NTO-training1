@@ -9,7 +9,7 @@ public class Center implements Owner {
     }
 
     @Override
-    public String getName() {
+    public String toString() {
         return "Культурный центр";
     }
 }
