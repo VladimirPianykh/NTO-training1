@@ -3,8 +3,8 @@ package com.ntoproject.editables;
 import com.futurefactory.Data;
 import com.futurefactory.editor.EditorEntry;
 
-public class MentorEditable extends Data.Editable {
-    public MentorEditable() {
+public class Mentor extends Data.Editable {
+    public Mentor() {
         super("Новый преподаватель");
     }
 
