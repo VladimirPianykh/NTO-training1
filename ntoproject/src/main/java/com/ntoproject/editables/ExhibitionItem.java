@@ -26,7 +26,6 @@ public class ExhibitionItem extends Data.Editable {
         @Override
         public JComponent createEditorBase(Object o, Field field, Wrapper<Supplier<?>> wrapper) {
             JComboBox<Owner> c = new JComboBox<>();
-            System.out.println(Data.getInstance().getGroup(Studio.class).size());
             for (Studio s : Data.getInstance().getGroup(Studio.class))
                 c.addItem(s);
             c.addItem(Center.getInstance());
