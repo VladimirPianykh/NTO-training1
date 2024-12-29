@@ -7,7 +7,7 @@ public class Studio extends Data.Editable implements Owner {
     public Studio() {
         super("Новая студия");
     }
-
+    
     @EditorEntry(translation = "Описание")
     public String description;
 }
