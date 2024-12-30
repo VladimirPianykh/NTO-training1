@@ -1,10 +1,9 @@
 package com.ntoproject.editables;
 
-import com.futurefactory.core.Data;
-import com.futurefactory.editor.EditorEntry;
+import com.bpa4j.core.Data;
 
-public class Mentor extends Data.Editable {
-    public Mentor() {
-        super("Новый преподаватель");
+public class Mentor extends Data.Editable{
+	public Mentor(){
+		super("Новый преподаватель");
     }
 }

@@ -6,8 +6,8 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
 
-import com.futurefactory.HButton;
-import com.futurefactory.core.User.Feature;
+import com.bpa4j.HButton;
+import com.bpa4j.core.User.Feature;
 import java.awt.image.BufferedImage;
 import java.io.File;
 

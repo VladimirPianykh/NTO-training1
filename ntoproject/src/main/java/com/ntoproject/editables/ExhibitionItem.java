@@ -6,10 +6,10 @@ import java.util.function.Supplier;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 
-import com.futurefactory.core.Data;
-import com.futurefactory.Wrapper;
-import com.futurefactory.editor.EditorEntry;
-import com.futurefactory.editor.EditorEntryBase;
+import com.bpa4j.core.Data;
+import com.bpa4j.Wrapper;
+import com.bpa4j.editor.EditorEntry;
+import com.bpa4j.editor.EditorEntryBase;
 import com.ntoproject.editables.space.Center;
 import com.ntoproject.editables.space.Owner;
 import com.ntoproject.editables.space.Studio;
